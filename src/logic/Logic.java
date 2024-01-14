@@ -124,6 +124,7 @@ public class Logic {
     // method to remove a number of tokens from henchmen initiative
     public void removeHenchmen (int x) {
         numHenchmen -= x;
+        if (numHenchmen < 0) {numHenchmen = 0;}
         henchmenTokenRemove(x);
         validate();
     }

@@ -258,6 +258,12 @@ public class InitWindow extends JPanel implements ActionListener {
 
             mainPanel.add(gameOverPanel);
             nextTurnButton.setEnabled(false);
+            nextTurnButton.setEnabled(false);
+            enemyAddButton.setEnabled(false);
+            enemyRemoveButton.setEnabled(false);
+            henchmenAddButton.setEnabled(false);
+            henchmenRemoveButton.setEnabled(false);
+            charRemoveButton.setEnabled(false);
             revalidate();
             repaint();
             return;
